@@ -1,0 +1,586 @@
+header#main
+  .con.text-center
+    .menu
+      a(href="#main") главная
+      a(href="#services") услуги
+      a(href="#park") автопарк
+      a(href="#benefits") преимущества
+      a(href="#reviews") отзывы
+      a(href="#contacts") контакты
+
+section.head
+  .con
+    .container-fluid
+      .row
+        .col-xs-12.col-sm-6.col-md-6.col-lg-6
+          .bg-logo
+          .logotip
+            .logo
+                img(src="img/logo.png")
+            .des Грузоперевозки и грузчики<br> в Чите и Заб. крае
+        .col-xs-12.col-sm-6.col-md-6.col-lg-6
+          .m-phone 8 (914) 471-34-34
+          .adres Чита, ул. Фрунзе 10, оф. 8
+
+section.offer
+  .con
+    .container-fluid
+      .row
+        .col-xs-12.col-sm-12.col-md-12.col-lg-12.text-center
+          .utp#ofer-1
+            | Грузоперевозки и услуги грузчиков
+            br
+            | по Чите и Забайкальскому краю
+            br
+            span
+              | Профессиональная помощь с переездами &nbsp; &nbsp; Перевозка грузов любой сложности
+              br
+              | Услуги грузчиков
+          .utp#ofer-2
+            | Грузоперевозки и услуги грузчиков по Чите и Забайкальскому краю
+            br
+            span
+              | Профессиональная помощь с переездами
+              br
+              |Перевозка грузов любой сложности
+              br
+              | Услуги грузчиков
+
+section.promo
+  .con
+    .container-fluid
+      .row
+        .col-xs-0.col-sm-6.col-md-6.col-lg-6
+          img(src="img/car_1.jpg" style="opacity: 0; top: '-40px'").car
+        .col-xs-12.col-sm-6.col-md-6.col-lg-6.f-1(style="opacity: 0;")
+          .form1.text-center
+            .text1 Оставьте заявку
+            .text2 на расчет стоимости по перевозке груза
+            .text3 и получите скидку 10%
+            form(action="http://crm.chitatrans.com/order" method="post")
+              input(type="hidden" name="order" value="Расчет стоимости по перевозке груза")
+              input(type="text" name="name" placeholder="Ваше имя").input.name
+              input(type="text" name="phone" placeholder="телефон").input.phone
+              button(type="submit" name="submit").button оставить заявку
+          .timer
+            .c
+              .hr
+              .title до конца акции осталось:
+              .digits.t.text-center
+              .text.text-center 
+                span дней 
+                span часов 
+                span минут 
+                span секунд
+
+section.figures
+  .con
+    .container-fluid
+      .row
+        .col-xs-12.col-sm-12.col-md-12.col-lg-12.text-center
+          .title цифры компании
+      .row
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.text-center.figure
+            b#figure-1 9
+            | лет опыта
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.text-center.figure
+            b#figure-2 250
+            | клиентов ежемесячно
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.text-center.figure
+            b#figure-3 15
+            | профессиональных сотрудников
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.text-center.figure
+            b#figure-4 10
+            | грузовиков
+
+section.services#services
+  .con
+    .container-fluid
+      .row
+        .col-xs-12.col-sm-12.col-md-12.col-lg-12.text-center
+          .title Наши услуги
+      .row.items
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.text-center
+          .item Квартирный переезд
+          img(src="img/services-1_0.jpg")
+          .price от 450 руб.
+          .button.order(data-order="Квартирный переезд (рассчитать стоимость)") рассчитать стоимость
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.text-center
+          .item Дачный переезд
+          img(src="img/services-2_0.jpg")
+          .price от 500 руб.
+          .button.order(data-order="Дачный переезд (рассчитать стоимость)") рассчитать стоимость
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.text-center
+          .item Офисный переезд
+          img(src="img/services-3_0.jpg")
+          .price от 450 руб.
+          .button.order(data-order="Офисный переезд (рассчитать стоимость)") рассчитать стоимость
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3.text-center
+          .item Услуги грузчиков
+          img(src="img/services-4_1.jpg")
+          .price от 300 руб.
+          .button.order(data-order="Услуги грузчиков (рассчитать стоимость)") рассчитать стоимость
+
+include form.jade
+
+section.park#park
+  .con
+    .container-fluid
+      .row
+        .col-xs-12.col-sm-12.col-md-12.col-lg-12.text-center
+          .title свой парк автомобилей
+        .container-fluid
+          .row.items
+            .col-xs-12.col-sm-6.col-md-3.col-lg-3.text-center
+              .item Mazda TITAN, 3т
+              img(src="img/park-1.png")
+              .specifications
+                .container-fluid
+                  .row
+                    .col-xs-8.col-sm-8.col-md-8.col-lg-8.text-left
+                      | длинна фургона
+                    .col-xs-4.col-sm-4.col-md-4.col-lg-4.text-right
+                      span 4,3 м.
+                    .col-xs-8.col-sm-8.col-md-8.col-lg-8.text-left
+                      | ширина фургона
+                    .col-xs-4.col-sm-4.col-md-4.col-lg-4.text-right
+                      span 2 м.
+                    .col-xs-8.col-sm-8.col-md-8.col-lg-8.text-left
+                      | высота фургона
+                    .col-xs-4.col-sm-4.col-md-4.col-lg-4.text-right
+                      span 2 м.
+              .price 450 руб.
+              .button.order(data-order="Заказ Mazda TITAN, 3т") заказать
+            .col-xs-12.col-sm-6.col-md-3.col-lg-3.text-center
+              .item Toyota Duna, 4т
+              img(src="img/park-2.png")
+              .specifications
+                .container-fluid
+                  .row
+                    .col-xs-8.col-sm-8.col-md-8.col-lg-8.text-left
+                      | длинна фургона
+                    .col-xs-4.col-sm-4.col-md-4.col-lg-4.text-right
+                      span 4,4 м.
+                    .col-xs-8.col-sm-8.col-md-8.col-lg-8.text-left
+                      | ширина фургона
+                    .col-xs-4.col-sm-4.col-md-4.col-lg-4.text-right
+                      span 2 м.
+                    .col-xs-8.col-sm-8.col-md-8.col-lg-8.text-left
+                      | высота фургона
+                    .col-xs-4.col-sm-4.col-md-4.col-lg-4.text-right
+                      span 2,2 м.
+              .price 500 руб.
+              .button.order(data-order="Заказ Toyota Duna, 4т") заказать
+            .col-xs-12.col-sm-6.col-md-3.col-lg-3.text-center
+              .item Hino Ranger, 3т
+              img(src="img/park-3.png")
+              .specifications
+                .container-fluid
+                  .row
+                    .col-xs-8.col-sm-8.col-md-8.col-lg-8.text-left
+                      | длинна фургона
+                    .col-xs-4.col-sm-4.col-md-4.col-lg-4.text-right
+                      span 4,3 м.
+                    .col-xs-8.col-sm-8.col-md-8.col-lg-8.text-left
+                      | ширина фургона
+                    .col-xs-4.col-sm-4.col-md-4.col-lg-4.text-right
+                      span 1,8 м.
+                    .col-xs-8.col-sm-8.col-md-8.col-lg-8.text-left
+                      | высота фургона
+                    .col-xs-4.col-sm-4.col-md-4.col-lg-4.text-right
+                      span 1,9 м.
+              .price 450 руб.
+              .button.order(data-order="Заказ Hino Ranger, 3т") заказать
+            .col-xs-12.col-sm-6.col-md-3.col-lg-3.text-center
+              .item Toyota Duna, 2т
+              img(src="img/park-2.png")
+              .specifications
+                .container-fluid
+                  .row
+                    .col-xs-7.col-sm-7.col-md-7.col-lg-7.text-left
+                      | длинна борта
+                    .col-xs-5.col-sm-5.col-md-5.col-lg-5.text-right
+                      span 3,1 м.
+                    .col-xs-8.col-sm-8.col-md-8.col-lg-8.text-left
+                      | ширина кузова
+                    .col-xs-4.col-sm-4.col-md-4.col-lg-4.text-right
+                      span 1,6 м.
+                    .col-xs-7.col-sm-7.col-md-7.col-lg-7.text-left
+                      | &nbsp;
+                    .col-xs-5.col-sm-5.col-md-5.col-lg-5.text-right
+                      span &nbsp;
+              .price 450 руб.
+              .button.order(data-order="Заказ Toyota Duna, 2т") заказать
+
+        .container-fluid
+          .row.items
+            .col-xs-12.col-sm-6.col-md-3.col-lg-3.text-center
+              .item Mazda TITAN, 3т
+              img(src="img/park-5.png")
+              .specifications
+                .container-fluid
+                  .row
+                    .col-xs-8.col-sm-8.col-md-8.col-lg-8.text-left
+                      | длинна фургона
+                    .col-xs-4.col-sm-4.col-md-4.col-lg-4.text-right
+                      span 4,3 м.
+                    .col-xs-8.col-sm-8.col-md-8.col-lg-8.text-left
+                      | ширина фургона
+                    .col-xs-4.col-sm-4.col-md-4.col-lg-4.text-right
+                      span 2 м.
+              .price 450 руб.
+              .button.order(data-order="Заказ Mazda TITAN, 3т") заказать
+            .col-xs-12.col-sm-6.col-md-3.col-lg-3.text-center
+              .item Toyota Duna, 4т
+              img(src="img/park-6.png")
+              .specifications
+                .container-fluid
+                  .row
+                    .col-xs-8.col-sm-8.col-md-8.col-lg-8.text-left
+                      | длинна фургона
+                    .col-xs-4.col-sm-4.col-md-4.col-lg-4.text-right
+                      span 4,4 м.
+                    .col-xs-8.col-sm-8.col-md-8.col-lg-8.text-left
+                      | ширина фургона
+                    .col-xs-4.col-sm-4.col-md-4.col-lg-4.text-right
+                      span 2 м.
+              .price 500 руб.
+              .button.order(data-order="Заказ Toyota Duna, 4т") заказать
+            .col-xs-12.col-sm-6.col-md-3.col-lg-3.text-center
+              .item Hino Ranger, 3т
+              img(src="img/park-7.png")
+              .specifications
+                .container-fluid
+                  .row
+                    .col-xs-8.col-sm-8.col-md-8.col-lg-8.text-left
+                      | длинна фургона
+                    .col-xs-4.col-sm-4.col-md-4.col-lg-4.text-right
+                      span 4,3 м.
+                    .col-xs-8.col-sm-8.col-md-8.col-lg-8.text-left
+                      | ширина фургона
+                    .col-xs-4.col-sm-4.col-md-4.col-lg-4.text-right
+                      span 1,8 м.
+              .price 450 руб.
+              .button.order(data-order="Заказ Hino Ranger, 3т") заказать
+            .col-xs-12.col-sm-6.col-md-3.col-lg-3.text-center
+              .item Toyota Duna, 2т
+              img(src="img/park-8.png")
+              .specifications
+                .container-fluid
+                  .row
+                    .col-xs-7.col-sm-7.col-md-7.col-lg-7.text-left
+                      | длинна борта
+                    .col-xs-5.col-sm-5.col-md-5.col-lg-5.text-right
+                      span 3,1 м.
+                    .col-xs-8.col-sm-8.col-md-8.col-lg-8.text-left
+                      | ширина кузова
+                    .col-xs-4.col-sm-4.col-md-4.col-lg-4.text-right
+                      span 1,6 м.
+              .price 450 руб.
+              .button.order(data-order="Заказ Toyota Duna, 2т") заказать
+
+section.benefits#benefits
+  .con
+    .container-fluid
+      .row
+        .col-xs-12.col-sm-12.col-md-12.col-lg-12.text-center
+          .title наши преимущества
+
+      .row.benefit(style="opacity: 0;")
+        .col-xs-0.col-sm-3.col-md-2.col-lg-2.text-right
+          img(src="img/benefit-1.png")
+        .col-xs-12.col-sm-9.col-md-10.col-lg-10.text-left
+          span Девять лет на рынке
+          | За это время были перевезены тонны различных грузов на многокилометровые расстояния в любых погодных условиях и при самой различной загруженности автодорог.
+      .row.benefit(style="opacity: 0;")
+        .col-xs-12.col-sm-9.col-md-10.col-lg-10.text-right
+          span Сборка и разборка мебели
+          | Только опытные грузчики смогут грамотно демонтировать любое оборудование, собрать и разобрать мебель по всем правилам, а также перевезти тяжеловесные и негабаритные предметы при помощи надежных специальных приспособлений. В условиях возрастающей конкуренции и финансовой гонки профессиональные услуги грузчиков – не трата, а экономия.
+        .col-xs-0.col-sm-3.col-md-2.col-lg-2.text-left
+          img(src="img/benefit-2.png")
+
+      .row.benefit(style="opacity: 0;")
+        .col-xs-0.col-sm-3.col-md-2.col-lg-2.text-right
+          img(src="img/benefit-3.png")
+        .col-xs-12.col-sm-9.col-md-10.col-lg-10.text-left
+          span Свой парк грузовиков из 10 автомобилей
+          | Компания  владеет собственным грузовым автопарком из нескольких грузовых автомобилей, наш автомобильный парк постоянно обновляется новыми моделями грузовых автомобилей. Наша компания осуществляет: услуги грузоперевозки автомобильным транспортном, услуги по организации и проведению квартирных и офисных переездов.
+      .row.benefit(style="opacity: 0;")
+        .col-xs-12.col-sm-9.col-md-10.col-lg-10.text-right
+          span Бережное обращение с имуществом
+          | Особое внимание мы уделяем сохранности имущества клиентов. Чтобы доставить мебель, хрупкие цветы, ценные бумаги и дорогую компьютерную технику «в первозданном виде», мы используем только подходящие упаковочные материалы и специально оснащенный транспорт.
+        .col-xs-0.col-sm-3.col-md-2.col-lg-2.text-left
+          img(src="img/benefit-4.png")
+
+      .row.benefit(style="opacity: 0;")
+        .col-xs-0.col-sm-3.col-md-2.col-lg-2.text-right
+          img(src="img/benefit-5.png")
+        .col-xs-12.col-sm-9.col-md-10.col-lg-10.text-left
+          span Беремся за проекты любой сложности
+          | На первом месте - безопасность, на втором — скорость. А для этого нужен идеальный транспорт. Самый надежный и полностью исправный. Мы используем для дальних переездов именно такие машины.
+      .row.benefit(style="opacity: 0;")
+        .col-xs-12.col-sm-9.col-md-10.col-lg-10.text-right
+          span Низкие цены
+          | Мы  не заламывамем цены, мы не экономим на специалистах, однако наш опыт позволяет быть одной из лидирующих компаний, сочетающих в себе качество и демократическую цену. Доверьте нам свой переезд и убедиесь в этом сами.
+        .col-xs-0.col-sm-3.col-md-2.col-lg-2.text-left
+          img(src="img/benefit-6.png")
+
+      .row.benefit(style="opacity: 0;")
+        .col-xs-0.col-sm-3.col-md-2.col-lg-2.text-right
+          img(src="img/benefit-7.png")
+        .col-xs-12.col-sm-9.col-md-10.col-lg-10.text-left
+          span Подача грузовика точно в срок
+          | Скорость - залог успеха, движение как говорится жизнь, по этому мы ускоряем время для вас. Работаем точно и в обговоренные сроки.
+      .row.benefit(style="opacity: 0;")
+        .col-xs-12.col-sm-9.col-md-10.col-lg-10.text-right
+          span Положительные отзывы клиентов
+          | С нами, успешно переехали десятки семей, многие из которых рекомендуют нашу команду своим друзьям и знакомым.
+        .col-xs-0.col-sm-3.col-md-2.col-lg-2.text-left
+          img(src="img/benefit-8.png")
+
+include form.jade
+
+
+section.reviews#reviews
+  .con
+    .container-fluid
+      .row
+        .col-xs-12.col-sm-12.col-md-12.col-lg-12.text-center
+          .title Отзывы наших клиентов
+      .row
+        .col-xs-12.col-sm-6.col-md-6.col-lg-6.review
+          .pp
+            div 
+              p.
+                Никогда раньше не подумала бы ,что моя двухкомнатная квартира вместится в один грузовик. Грузчики работают слаженно и очень аккуратно, машины большие
+            .qq
+          div
+            img(src="img/avatar.png")
+            span 
+              .name 
+                | Ольга Васильевна
+                br
+                span
+        .col-xs-12.col-sm-6.col-md-6.col-lg-6.review
+          .pp
+            div 
+              p.
+                Обратились в «помощь»,когда переезжали с квартиры в квартиру.
+                Машина пришла без опозданий, парни без перекуров быстренько все погрузили…время
+                ушло меньше чем планировал и денег немного взяли. Спасибо, будем еще вас вызывать
+            .qq
+          div
+            img(src="img/avatar.png")
+            span 
+              .name 
+                | Мария и Сергей
+                br
+                span
+
+      .row
+        .col-xs-12.col-sm-6.col-md-6.col-lg-6.review
+          .pp
+            div 
+              p.
+                Уже не один раз звонил в «помощь» и не разу не пожалел .цены не
+                заламывают, скидки как постояннику делают. машины разные, зато
+                водители все как один- приветливые ,обязательные и помогут ,если нужно
+            .qq
+          div
+            img(src="img/avatar.png")
+            span 
+              .name 
+                | Александр
+                br
+                span
+        .col-xs-12.col-sm-6.col-md-6.col-lg-6.review
+          .pp
+            div 
+              p.
+                При переезде офиса столкнулись с неприятностью- мебель не влезла в двери, а
+                мужчин нет. обратились в «помощь»,пришли грузчики со своими инструментами, все
+                разобрали, погрузили. на новом месте собрали и все помогли по местам расположить.
+                работают быстро и бесхитростно, цены порадовали, от выделенных начальством денег
+                осталось на кофе с тортиком ))))
+            .qq
+          div
+            img(src="img/avatar.png")
+            span 
+              .name 
+                | Татьянка
+                br
+                span
+      #all(style="display: none")
+        .row
+          .col-xs-12.col-sm-6.col-md-6.col-lg-6.review
+            .pp
+              div 
+                p.
+                  Занимаюсь строительством дома и несколько раз в неделю звоню в
+                  «помощь»,всегда выручают и долго ждать не приходиться
+              .qq
+            div
+              img(src="img/avatar.png")
+              span 
+                .name 
+                  | Кирилл
+                  br
+                  span
+          .col-xs-12.col-sm-6.col-md-6.col-lg-6.review
+            .pp
+              div 
+                p.
+                  Недавно переезжали с квартиры на квартиру. я долго не могла сориентироваться
+                  как и что, девушка-диспетчер мне все быстренько рассказала, помогла определиться
+                  какую машину надо, по деньгам прикинула…заказали…приехали ребятки и как мне
+                  рассказывали так и вышло…машина хорошая, объемная, грузчики опытные, все
+                  упаковали, разложили. время не тянули. Молодцы! успехов вам и процветания!
+              .qq
+            div
+              img(src="img/avatar.png")
+              span 
+                .name 
+                  | Нина
+                  br
+                  span
+
+        .row
+          .col-xs-12.col-sm-6.col-md-6.col-lg-6.review
+            .pp
+              div 
+                p.
+                  Часто заказываю грузчиков в «помощи»…шустрые парняги…цемент на
+                  девятый этаж поднимают так, аж залюбуешься, да и не только цемент….за такую работу
+                  денег не много берут, с другими как то не получалось, то опоздают, то время тянут, а эти
+                  молодчаги!
+              .qq
+            div
+              img(src="img/avatar.png")
+              span 
+                .name 
+                  | Строитель
+                  br
+                  span
+          .col-xs-12.col-sm-6.col-md-6.col-lg-6.review
+            .pp
+              div 
+                p.
+                  Перевозил вещи в район, думал вылетит в копеечку, оказалось недорого. машины
+                  надежные, будки большие, вместительные. Советую всем. .дешевле по району никто не
+                  поедет…
+              .qq
+            div
+              img(src="img/avatar.png")
+              span 
+                .name 
+                  | Лёха
+                  br
+                  span
+
+        .row
+          .col-xs-12.col-sm-6.col-md-6.col-lg-6.review
+            .pp
+              div 
+                p.
+                  Говорят, что переезд хуже пожара. .так вот с грузоперевозками «помощь» все
+                  было не так сложно.. приехали парни, сами все вынесли, укомплектовали, что нужно
+                  разобрали, перевезли и на новом месте расставили сразу как надо, нам осталось только
+                  кошку запустить)))если, не дай Бог, еще раз переезжать, то не задумываясь только вам
+                  звонить буду
+              .qq
+            div
+              img(src="img/avatar.png")
+              span 
+                .name 
+                  | Наталья
+                  br
+                  span
+          .col-xs-12.col-sm-6.col-md-6.col-lg-6.review
+            .pp
+              div 
+                p.
+                  Грузоперевозок в городе много, но цены высокие, а у кого не дорого так того и
+                  не дождешься. в помощи машины всегда есть цену не завышают. диспетчер всегда
+                  посоветует что надо, доки предоставляют, что мне как посреднику очень важно.
+              .qq
+            div
+              img(src="img/avatar.png")
+              span 
+                .name 
+                  | Максим
+                  br
+                  span
+
+        .row
+          .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xs-offset-0.col-sm-offset-3.col-md-offset-3.col-lg-offset-3.review
+            .pp
+              div 
+                p.
+                  Есть те кто может поднять холодильник на восьмой этаж ,а есть
+                  те кто может это оплатить! Я часто прибегаю к услугам грузчиков и всегда звоню в
+                  помощь ..прибегут в любое время, возьмуться за любой груз и главное ,что за этажи
+                  платить дополнительно
+              .qq
+            div
+              img(src="img/avatar.png")
+              span 
+                .name 
+                  | анонимом
+                  br
+                  span1
+      .row
+        .col-xs-12.col-sm-12.col-md-12.col-lg-12
+          .button.all Смотреть все отзывы
+
+section.letters
+  .con.text-center
+    .container-fluid
+      .row
+        .col-xs-12.col-sm-12.col-md-12.col-lg-12
+          .title благодарственные письма
+      .row#letters(style="opacity: 0; top:100px")
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3
+          img(src="img/letter-1-min.jpg" data-src="letter-1.jpg")
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3
+          img(src="img/letter-3-min.jpg" data-src="letter-3_4.jpg")
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3
+          img(src="img/letter-2-min.jpg" data-src="letter-2_4.jpg")
+        .col-xs-12.col-sm-6.col-md-3.col-lg-3
+          img(src="img/letter-4-min.jpg" data-src="letter-4.jpg")
+
+section.logos.text-center(style="opacity: 0;")
+  img(src="img/logos_0.jpg")
+
+
+#contacts
+include form.jade
+
+script(type="text/javascript" charset="utf-8" src="http://api-maps.yandex.ru/services/constructor/1.0/js/?sid=rJV_T1p6Yg2FpKdss2yvOZK5wCm-6aDH&height=450&id=mymap")
+#mymap
+
+footer
+  .con
+    .container-fluid
+      .row
+        .col-xs-12.col-sm-5.col-md-5.col-lg-5
+          .logotip
+            .logo
+                img(src="img/logo.png")
+            .des Грузоперевозки и грузчики в Чите и Заб. крае
+        .col-xs-0.col-sm-2.col-md-2.col-lg-2.text-center.aleksandr
+          div(onclick='window.open(\'https://vk.com/aleksandr_sazhin\',\'_blank\');', style='line-height: 1; font-size: 11px; color: #fff; display: table; margin: 10px auto 3px auto; padding: 20px 0 20px 0; cursor: pointer; height: auto;')
+            div(style='display: inline-table; float: left;')
+              span(style='font-size: 2.2em;') &lt;
+            div(style='margin: 0 0.364em; line-height: 1.091em; display: inline-table; float: left; text-align: right;')
+              span(style='font-size: 1em;')
+                | Сажин
+                br
+                | Александр
+            div(style='display: inline-table; float: left;')
+              span(style='font-size: 2.2em;') /&gt
+            br
+            div(style='color: #ffcc00; display: table; text-align: center; width: 100%; padding-top: 0.2em; font-size: 0.95em;')
+              | &lt;!-- Вёрстка Cайта --&gt
+        .col-xs-12.col-sm-5.col-md-5.col-lg-5.text-right
+          .m-phone 8 (914) 471-34-34
+          .adres Чита, ул. Фрунзе 10, оф. 8

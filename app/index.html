@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    <link href="css/main.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]
+    
+    -->
+  </head>
+  <body>
+    <header id="main">
+      <div class="con text-center">
+        <div class="menu"><a href="#main">главная</a><a href="#services">услуги</a><a href="#park">автопарк</a><a href="#benefits">преимущества</a><a href="#reviews">отзывы</a><a href="#contacts">контакты</a></div>
+      </div>
+    </header>
+    <section class="head">
+      <div class="con">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <div class="bg-logo"></div>
+              <div class="logotip">
+                <div class="logo"><img src="img/logo.png"></div>
+                <div class="des">Грузоперевозки и грузчики<br> в Чите и Заб. крае</div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <div class="m-phone">8 (914) 471-34-34</div>
+              <div class="adres">Чита, ул. Фрунзе 10, оф. 8</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="offer">
+      <div class="con">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              <div id="ofer-1" class="utp">Грузоперевозки и услуги грузчиков<br>по Чите и Забайкальскому краю<br><span>Профессиональная помощь с переездами &nbsp; &nbsp; Перевозка грузов любой сложности<br>Услуги грузчиков</span></div>
+              <div id="ofer-2" class="utp">Грузоперевозки и услуги грузчиков по Чите и Забайкальскому краю<br><span>Профессиональная помощь с переездами<br>Перевозка грузов любой сложности<br>Услуги грузчиков</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="promo">
+      <div class="con">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-0 col-sm-6 col-md-6 col-lg-6"><img src="img/car_1.jpg" style="opacity: 0; top: '-40px'" class="car"></div>
+            <div style="opacity: 0;" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 f-1">
+              <div class="form1 text-center">
+                <div class="text1">Оставьте заявку</div>
+                <div class="text2">на расчет стоимости по перевозке груза</div>
+                <div class="text3">и получите скидку 10%</div>
+                <form action="http://crm.chitatrans.com/order" method="post">
+                  <input type="hidden" name="order" value="Расчет стоимости по перевозке груза">
+                  <input type="text" name="name" placeholder="Ваше имя" class="input name">
+                  <input type="text" name="phone" placeholder="телефон" class="input phone">
+                  <button type="submit" name="submit" class="button">оставить заявку</button>
+                </form>
+              </div>
+              <div class="timer">
+                <div class="c">
+                  <div class="hr"></div>
+                  <div class="title">до конца акции осталось:</div>
+                  <div class="digits t text-center"></div>
+                  <div class="text text-center"><span>дней </span><span>часов </span><span>минут </span><span>секунд</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="figures">
+      <div class="con">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              <div class="title">цифры компании</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center figure"><b id="figure-1">9</b>лет опыта</div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center figure"><b id="figure-2">250</b>клиентов ежемесячно</div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center figure"><b id="figure-3">15</b>профессиональных сотрудников</div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center figure"><b id="figure-4">10</b>грузовиков</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="services">
+      <div class="con">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              <div class="title">Наши услуги</div>
+            </div>
+          </div>
+          <div class="row items">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+              <div class="item">Квартирный переезд</div><img src="img/services-1_0.jpg">
+              <div class="price">от 450 руб.</div>
+              <div data-order="Квартирный переезд (рассчитать стоимость)" class="button order">рассчитать стоимость</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+              <div class="item">Дачный переезд</div><img src="img/services-2_0.jpg">
+              <div class="price">от 500 руб.</div>
+              <div data-order="Дачный переезд (рассчитать стоимость)" class="button order">рассчитать стоимость</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+              <div class="item">Офисный переезд</div><img src="img/services-3_0.jpg">
+              <div class="price">от 450 руб.</div>
+              <div data-order="Офисный переезд (рассчитать стоимость)" class="button order">рассчитать стоимость</div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+              <div class="item">Услуги грузчиков</div><img src="img/services-4_1.jpg">
+              <div class="price">от 300 руб.</div>
+              <div data-order="Услуги грузчиков (рассчитать стоимость)" class="button order">рассчитать стоимость</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="form">
+      <div class="con">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              <div class="text1">Оставьте заявку</div>
+              <div class="text2">на расчет стоимости по перевозке груза</div>
+              <div class="text3">и получите скидку 10%</div>
+            </div>
+          </div>
+          <form action="http://crm.chitatrans.com/order" method="post" class="text-center">
+            <input type="hidden" name="order" value="Расчет стоимости по перевозке груза">
+            <input type="text" name="name" placeholder="Ваше имя" class="input name">
+            <input type="text" name="phone" placeholder="телефон" class="input phone">
+            <button type="submit" name="submit" class="button">оставить заявку</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="timer timer-relative">
+      <div class="c">
+        <div class="hr"></div>
+        <div class="title">до конца акции осталось:</div>
+        <div class="digits t text-center"></div>
+        <div class="text text-center"><span>дней </span><span>часов </span><span>минут </span><span>секунд</span></div>
+      </div>
+    </div>
+    <section id="park" class="park">
+      <div class="con">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              <div class="title">свой парк автомобилей</div>
+            </div>
+            <div class="container-fluid">
+              <div class="row items">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+                  <div class="item">Mazda TITAN, 3т</div><img src="img/park-1.png">
+                  <div class="specifications">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">длинна фургона</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right"><span>4,3 м.</span></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">ширина фургона</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right"><span>2 м.</span></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">высота фургона</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right"><span>2 м.</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price">450 руб.</div>
+                  <div data-order="Заказ Mazda TITAN, 3т" class="button order">заказать</div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+                  <div class="item">Toyota Duna, 4т</div><img src="img/park-2.png">
+                  <div class="specifications">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">длинна фургона</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right"><span>4,4 м.</span></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">ширина фургона</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right"><span>2 м.</span></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">высота фургона</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right"><span>2,2 м.</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price">500 руб.</div>
+                  <div data-order="Заказ Toyota Duna, 4т" class="button order">заказать</div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+                  <div class="item">Hino Ranger, 3т</div><img src="img/park-3.png">
+                  <div class="specifications">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">длинна фургона</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right"><span>4,3 м.</span></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">ширина фургона</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right"><span>1,8 м.</span></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">высота фургона</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right"><span>1,9 м.</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price">450 руб.</div>
+                  <div data-order="Заказ Hino Ranger, 3т" class="button order">заказать</div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+                  <div class="item">Toyota Duna, 2т</div><img src="img/park-2.png">
+                  <div class="specifications">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 text-left">длинна борта</div>
+                        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 text-right"><span>3,1 м.</span></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">ширина кузова</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right"><span>1,6 м.</span></div>
+                        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 text-left">&nbsp;</div>
+                        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 text-right"><span>&nbsp;</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price">450 руб.</div>
+                  <div data-order="Заказ Toyota Duna, 2т" class="button order">заказать</div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid">
+              <div class="row items">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+                  <div class="item">Mazda TITAN, 3т</div><img src="img/park-5.png">
+                  <div class="specifications">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">длинна фургона</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right"><span>4,3 м.</span></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">ширина фургона</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right"><span>2 м.</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price">450 руб.</div>
+                  <div data-order="Заказ Mazda TITAN, 3т" class="button order">заказать</div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+                  <div class="item">Toyota Duna, 4т</div><img src="img/park-6.png">
+                  <div class="specifications">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">длинна фургона</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right"><span>4,4 м.</span></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">ширина фургона</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right"><span>2 м.</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price">500 руб.</div>
+                  <div data-order="Заказ Toyota Duna, 4т" class="button order">заказать</div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+                  <div class="item">Hino Ranger, 3т</div><img src="img/park-7.png">
+                  <div class="specifications">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">длинна фургона</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right"><span>4,3 м.</span></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">ширина фургона</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right"><span>1,8 м.</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price">450 руб.</div>
+                  <div data-order="Заказ Hino Ranger, 3т" class="button order">заказать</div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center">
+                  <div class="item">Toyota Duna, 2т</div><img src="img/park-8.png">
+                  <div class="specifications">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 text-left">длинна борта</div>
+                        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 text-right"><span>3,1 м.</span></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 text-left">ширина кузова</div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-right"><span>1,6 м.</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price">450 руб.</div>
+                  <div data-order="Заказ Toyota Duna, 2т" class="button order">заказать</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="benefits" class="benefits">
+      <div class="con">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              <div class="title">наши преимущества</div>
+            </div>
+          </div>
+          <div style="opacity: 0;" class="row benefit">
+            <div class="col-xs-0 col-sm-3 col-md-2 col-lg-2 text-right"><img src="img/benefit-1.png"></div>
+            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 text-left"><span>Девять лет на рынке</span>За это время были перевезены тонны различных грузов на многокилометровые расстояния в любых погодных условиях и при самой различной загруженности автодорог.</div>
+          </div>
+          <div style="opacity: 0;" class="row benefit">
+            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 text-right"><span>Сборка и разборка мебели</span>Только опытные грузчики смогут грамотно демонтировать любое оборудование, собрать и разобрать мебель по всем правилам, а также перевезти тяжеловесные и негабаритные предметы при помощи надежных специальных приспособлений. В условиях возрастающей конкуренции и финансовой гонки профессиональные услуги грузчиков – не трата, а экономия.</div>
+            <div class="col-xs-0 col-sm-3 col-md-2 col-lg-2 text-left"><img src="img/benefit-2.png"></div>
+          </div>
+          <div style="opacity: 0;" class="row benefit">
+            <div class="col-xs-0 col-sm-3 col-md-2 col-lg-2 text-right"><img src="img/benefit-3.png"></div>
+            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 text-left"><span>Свой парк грузовиков из 10 автомобилей</span>Компания  владеет собственным грузовым автопарком из нескольких грузовых автомобилей, наш автомобильный парк постоянно обновляется новыми моделями грузовых автомобилей. Наша компания осуществляет: услуги грузоперевозки автомобильным транспортном, услуги по организации и проведению квартирных и офисных переездов.</div>
+          </div>
+          <div style="opacity: 0;" class="row benefit">
+            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 text-right"><span>Бережное обращение с имуществом</span>Особое внимание мы уделяем сохранности имущества клиентов. Чтобы доставить мебель, хрупкие цветы, ценные бумаги и дорогую компьютерную технику «в первозданном виде», мы используем только подходящие упаковочные материалы и специально оснащенный транспорт.</div>
+            <div class="col-xs-0 col-sm-3 col-md-2 col-lg-2 text-left"><img src="img/benefit-4.png"></div>
+          </div>
+          <div style="opacity: 0;" class="row benefit">
+            <div class="col-xs-0 col-sm-3 col-md-2 col-lg-2 text-right"><img src="img/benefit-5.png"></div>
+            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 text-left"><span>Беремся за проекты любой сложности</span>На первом месте - безопасность, на втором — скорость. А для этого нужен идеальный транспорт. Самый надежный и полностью исправный. Мы используем для дальних переездов именно такие машины.</div>
+          </div>
+          <div style="opacity: 0;" class="row benefit">
+            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 text-right"><span>Низкие цены</span>Мы  не заламывамем цены, мы не экономим на специалистах, однако наш опыт позволяет быть одной из лидирующих компаний, сочетающих в себе качество и демократическую цену. Доверьте нам свой переезд и убедиесь в этом сами.</div>
+            <div class="col-xs-0 col-sm-3 col-md-2 col-lg-2 text-left"><img src="img/benefit-6.png"></div>
+          </div>
+          <div style="opacity: 0;" class="row benefit">
+            <div class="col-xs-0 col-sm-3 col-md-2 col-lg-2 text-right"><img src="img/benefit-7.png"></div>
+            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 text-left"><span>Подача грузовика точно в срок</span>Скорость - залог успеха, движение как говорится жизнь, по этому мы ускоряем время для вас. Работаем точно и в обговоренные сроки.</div>
+          </div>
+          <div style="opacity: 0;" class="row benefit">
+            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 text-right"><span>Положительные отзывы клиентов</span>С нами, успешно переехали десятки семей, многие из которых рекомендуют нашу команду своим друзьям и знакомым.</div>
+            <div class="col-xs-0 col-sm-3 col-md-2 col-lg-2 text-left"><img src="img/benefit-8.png"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="form">
+      <div class="con">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              <div class="text1">Оставьте заявку</div>
+              <div class="text2">на расчет стоимости по перевозке груза</div>
+              <div class="text3">и получите скидку 10%</div>
+            </div>
+          </div>
+          <form action="http://crm.chitatrans.com/order" method="post" class="text-center">
+            <input type="hidden" name="order" value="Расчет стоимости по перевозке груза">
+            <input type="text" name="name" placeholder="Ваше имя" class="input name">
+            <input type="text" name="phone" placeholder="телефон" class="input phone">
+            <button type="submit" name="submit" class="button">оставить заявку</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="timer timer-relative">
+      <div class="c">
+        <div class="hr"></div>
+        <div class="title">до конца акции осталось:</div>
+        <div class="digits t text-center"></div>
+        <div class="text text-center"><span>дней </span><span>часов </span><span>минут </span><span>секунд</span></div>
+      </div>
+    </div>
+    <section id="reviews" class="reviews">
+      <div class="con">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              <div class="title">Отзывы наших клиентов</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 review">
+              <div class="pp">
+                <div>
+                  <p>Никогда раньше не подумала бы ,что моя двухкомнатная квартира вместится в один грузовик. Грузчики работают слаженно и очень аккуратно, машины большие</p>
+                </div>
+                <div class="qq"></div>
+              </div>
+              <div><img src="img/avatar.png"><span>
+                  <div class="name">Ольга Васильевна<br><span></span></div></span></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 review">
+              <div class="pp">
+                <div>
+                  <p>
+                    Обратились в «помощь»,когда переезжали с квартиры в квартиру.
+                    Машина пришла без опозданий, парни без перекуров быстренько все погрузили…время
+                    ушло меньше чем планировал и денег немного взяли. Спасибо, будем еще вас вызывать
+                  </p>
+                </div>
+                <div class="qq"></div>
+              </div>
+              <div><img src="img/avatar.png"><span>
+                  <div class="name">Мария и Сергей<br><span></span></div></span></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 review">
+              <div class="pp">
+                <div>
+                  <p>
+                    Уже не один раз звонил в «помощь» и не разу не пожалел .цены не
+                    заламывают, скидки как постояннику делают. машины разные, зато
+                    водители все как один- приветливые ,обязательные и помогут ,если нужно
+                  </p>
+                </div>
+                <div class="qq"></div>
+              </div>
+              <div><img src="img/avatar.png"><span>
+                  <div class="name">Александр<br><span></span></div></span></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 review">
+              <div class="pp">
+                <div>
+                  <p>
+                    При переезде офиса столкнулись с неприятностью- мебель не влезла в двери, а
+                    мужчин нет. обратились в «помощь»,пришли грузчики со своими инструментами, все
+                    разобрали, погрузили. на новом месте собрали и все помогли по местам расположить.
+                    работают быстро и бесхитростно, цены порадовали, от выделенных начальством денег
+                    осталось на кофе с тортиком ))))
+                  </p>
+                </div>
+                <div class="qq"></div>
+              </div>
+              <div><img src="img/avatar.png"><span>
+                  <div class="name">Татьянка<br><span></span></div></span></div>
+            </div>
+          </div>
+          <div id="all" style="display: none">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 review">
+                <div class="pp">
+                  <div>
+                    <p>
+                      Занимаюсь строительством дома и несколько раз в неделю звоню в
+                      «помощь»,всегда выручают и долго ждать не приходиться
+                    </p>
+                  </div>
+                  <div class="qq"></div>
+                </div>
+                <div><img src="img/avatar.png"><span>
+                    <div class="name">Кирилл<br><span></span></div></span></div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 review">
+                <div class="pp">
+                  <div>
+                    <p>
+                      Недавно переезжали с квартиры на квартиру. я долго не могла сориентироваться
+                      как и что, девушка-диспетчер мне все быстренько рассказала, помогла определиться
+                      какую машину надо, по деньгам прикинула…заказали…приехали ребятки и как мне
+                      рассказывали так и вышло…машина хорошая, объемная, грузчики опытные, все
+                      упаковали, разложили. время не тянули. Молодцы! успехов вам и процветания!
+                    </p>
+                  </div>
+                  <div class="qq"></div>
+                </div>
+                <div><img src="img/avatar.png"><span>
+                    <div class="name">Нина<br><span></span></div></span></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 review">
+                <div class="pp">
+                  <div>
+                    <p>
+                      Часто заказываю грузчиков в «помощи»…шустрые парняги…цемент на
+                      девятый этаж поднимают так, аж залюбуешься, да и не только цемент….за такую работу
+                      денег не много берут, с другими как то не получалось, то опоздают, то время тянут, а эти
+                      молодчаги!
+                    </p>
+                  </div>
+                  <div class="qq"></div>
+                </div>
+                <div><img src="img/avatar.png"><span>
+                    <div class="name">Строитель<br><span></span></div></span></div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 review">
+                <div class="pp">
+                  <div>
+                    <p>
+                      Перевозил вещи в район, думал вылетит в копеечку, оказалось недорого. машины
+                      надежные, будки большие, вместительные. Советую всем. .дешевле по району никто не
+                      поедет…
+                    </p>
+                  </div>
+                  <div class="qq"></div>
+                </div>
+                <div><img src="img/avatar.png"><span>
+                    <div class="name">Лёха<br><span></span></div></span></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 review">
+                <div class="pp">
+                  <div>
+                    <p>
+                      Говорят, что переезд хуже пожара. .так вот с грузоперевозками «помощь» все
+                      было не так сложно.. приехали парни, сами все вынесли, укомплектовали, что нужно
+                      разобрали, перевезли и на новом месте расставили сразу как надо, нам осталось только
+                      кошку запустить)))если, не дай Бог, еще раз переезжать, то не задумываясь только вам
+                      звонить буду
+                    </p>
+                  </div>
+                  <div class="qq"></div>
+                </div>
+                <div><img src="img/avatar.png"><span>
+                    <div class="name">Наталья<br><span></span></div></span></div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 review">
+                <div class="pp">
+                  <div>
+                    <p>
+                      Грузоперевозок в городе много, но цены высокие, а у кого не дорого так того и
+                      не дождешься. в помощи машины всегда есть цену не завышают. диспетчер всегда
+                      посоветует что надо, доки предоставляют, что мне как посреднику очень важно.
+                    </p>
+                  </div>
+                  <div class="qq"></div>
+                </div>
+                <div><img src="img/avatar.png"><span>
+                    <div class="name">Максим<br><span></span></div></span></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-3 col-md-offset-3 col-lg-offset-3 review">
+                <div class="pp">
+                  <div>
+                    <p>
+                      Есть те кто может поднять холодильник на восьмой этаж ,а есть
+                      те кто может это оплатить! Я часто прибегаю к услугам грузчиков и всегда звоню в
+                      помощь ..прибегут в любое время, возьмуться за любой груз и главное ,что за этажи
+                      платить дополнительно
+                    </p>
+                  </div>
+                  <div class="qq"></div>
+                </div>
+                <div><img src="img/avatar.png"><span>
+                    <div class="name">анонимом<br>
+                      <span1></span1>
+                    </div></span></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <div class="button all">Смотреть все отзывы</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="letters">
+      <div class="con text-center">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <div class="title">благодарственные письма</div>
+            </div>
+          </div>
+          <div id="letters" style="opacity: 0; top:100px" class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"><img src="img/letter-1-min.jpg" data-src="letter-1.jpg"></div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"><img src="img/letter-3-min.jpg" data-src="letter-3_4.jpg"></div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"><img src="img/letter-2-min.jpg" data-src="letter-2_4.jpg"></div>
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"><img src="img/letter-4-min.jpg" data-src="letter-4.jpg"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="opacity: 0;" class="logos text-center"><img src="img/logos_0.jpg"></section>
+    <div id="contacts"></div>
+    <section class="form">
+      <div class="con">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              <div class="text1">Оставьте заявку</div>
+              <div class="text2">на расчет стоимости по перевозке груза</div>
+              <div class="text3">и получите скидку 10%</div>
+            </div>
+          </div>
+          <form action="http://crm.chitatrans.com/order" method="post" class="text-center">
+            <input type="hidden" name="order" value="Расчет стоимости по перевозке груза">
+            <input type="text" name="name" placeholder="Ваше имя" class="input name">
+            <input type="text" name="phone" placeholder="телефон" class="input phone">
+            <button type="submit" name="submit" class="button">оставить заявку</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="timer timer-relative">
+      <div class="c">
+        <div class="hr"></div>
+        <div class="title">до конца акции осталось:</div>
+        <div class="digits t text-center"></div>
+        <div class="text text-center"><span>дней </span><span>часов </span><span>минут </span><span>секунд</span></div>
+      </div>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="http://api-maps.yandex.ru/services/constructor/1.0/js/?sid=rJV_T1p6Yg2FpKdss2yvOZK5wCm-6aDH&amp;height=450&amp;id=mymap"></script>
+    <div id="mymap"></div>
+    <footer>
+      <div class="con">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+              <div class="logotip">
+                <div class="logo"><img src="img/logo.png"></div>
+                <div class="des">Грузоперевозки и грузчики в Чите и Заб. крае</div>
+              </div>
+            </div>
+            <div class="col-xs-0 col-sm-2 col-md-2 col-lg-2 text-center aleksandr">
+              <div onclick="window.open('https://vk.com/aleksandr_sazhin','_blank');" style="line-height: 1; font-size: 11px; color: #fff; display: table; margin: 10px auto 3px auto; padding: 20px 0 20px 0; cursor: pointer; height: auto;">
+                <div style="display: inline-table; float: left;"><span style="font-size: 2.2em;">&lt;</span></div>
+                <div style="margin: 0 0.364em; line-height: 1.091em; display: inline-table; float: left; text-align: right;"><span style="font-size: 1em;">Сажин<br>Александр</span></div>
+                <div style="display: inline-table; float: left;"><span style="font-size: 2.2em;">/&gt</span></div><br>
+                <div style="color: #ffcc00; display: table; text-align: center; width: 100%; padding-top: 0.2em; font-size: 0.95em;">&lt;!-- Вёрстка Cайта --&gt</div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 text-right">
+              <div class="m-phone">8 (914) 471-34-34</div>
+              <div class="adres">Чита, ул. Фрунзе 10, оф. 8</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" id="order" class="modal fad">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><span class="glyphicon glyphicon-remove"></span></button>
+          </div>
+          <div class="modal-body modal-form text-center">
+            <div>Введите свои данные в форму ниже  и мы свяжемся с Вами в ближайшее время</div>
+            <form action="http://crm.chitatrans.com/order" method="post">
+              <input type="hidden" id="modal-order" name="order" value="">
+              <input type="text" name="name" placeholder="Ваше имя" class="input name">
+              <input type="text" name="phone" placeholder="телефон" class="input phone">
+              <button type="submit" name="submit" class="button">оставить заявку</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" id="ok" class="modal fad">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><span class="glyphicon glyphicon-remove"></span></button>
+          </div>
+          <div class="modal-body">
+            <div class="text-center">
+              Cпасибо! <br>Ваша заявка принята. Наш менеджер свяжется с Вами в ближайшее время.
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" id="img" class="modal fad">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><span class="glyphicon glyphicon-remove"></span></button>
+          </div>
+          <div class="modal-body">
+            <div class="text-center"><img id="img-src"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/singlepagenav.jquery.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../bower_components/jquery.validate/dist/jquery.validate.min.js"></script>
+  </body>
+</html>

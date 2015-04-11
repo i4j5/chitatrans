@@ -1,0 +1,23 @@
+section.form
+  .con
+    .container-fluid
+      .row
+        .col-xs-12.col-sm-12.col-md-12.col-lg-12.text-center
+          .text1 Оставьте заявку
+          .text2 на расчет стоимости по перевозке груза
+          .text3 и получите скидку 10%
+      form(action="http://crm.chitatrans.com/order" method="post").text-center
+        input(type="hidden" name="order" value="Расчет стоимости по перевозке груза")
+        input(type="text" name="name" placeholder="Ваше имя").input.name
+        input(type="text" name="phone" placeholder="телефон").input.phone
+        button(type="submit" name="submit").button оставить заявку
+.timer.timer-relative
+  .c
+    .hr
+    .title до конца акции осталось:
+    .digits.t.text-center
+    .text.text-center 
+      span дней 
+      span часов 
+      span минут 
+      span секунд

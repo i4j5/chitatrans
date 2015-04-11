@@ -1,0 +1,24 @@
+doctype html
+html(lang='ru')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    title Грузоперевозки и услуги грузчиков по Чите и Забайкальскому краю
+    include dist_head.jade
+    //[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]
+  body
+    include contant.jade
+    include modal.jade
+
+    script(type="text/javascript").
+      (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter26351112 = new Ya.Metrika({id:26351112, webvisor:true, clickmap:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");
+    noscript
+      div
+        img(src="//mc.yandex.ru/watch/26351112" style="position:absolute; left:-9999px;" alt="")
+
+    include dist_scripts.jade

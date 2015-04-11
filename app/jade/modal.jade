@@ -1,0 +1,35 @@
+div(aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" class="modal fad" id="order" )
+  .modal-dialog.modal-sm
+    .modal-content
+      .modal-header
+        button(type="button" data-dismiss="modal" aria-hidden="true" class="close") 
+          span.glyphicon.glyphicon-remove
+      .modal-body.modal-form.text-center
+        div Введите свои данные в форму ниже  и мы свяжемся с Вами в ближайшее время
+        form(action="http://crm.chitatrans.com/order" method="post")
+          input(type="hidden" id="modal-order" name="order" value="")
+          input(type="text" name="name" placeholder="Ваше имя").input.name
+          input(type="text" name="phone" placeholder="телефон").input.phone
+          button(type="submit" name="submit").button оставить заявку
+
+
+div(aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" class="modal fad" id="ok" )
+  .modal-dialog.modal-sm
+    .modal-content
+      .modal-header
+        button(type="button" data-dismiss="modal" aria-hidden="true" class="close") 
+          span.glyphicon.glyphicon-remove
+      .modal-body
+        .text-center.
+          Cпасибо! <br>Ваша заявка принята. Наш менеджер свяжется с Вами в ближайшее время.
+
+div(aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" class="modal fad" id="img" )
+  .modal-dialog.modal-lg
+    .modal-content
+      .modal-header
+        button(type="button" data-dismiss="modal" aria-hidden="true" class="close") 
+          span.glyphicon.glyphicon-remove
+      .modal-body
+        .text-center
+          img#img-src
+
